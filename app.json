@@ -1,12 +1,13 @@
 {
   "expo": {
-    "name": "store",
-    "slug": "store",
+    "name": "Plant Shop",
+    "slug": "Plant-Shop",
+    "description": "this my first React Native app",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./app/assets/icon.png",
+    "icon": "./app/assets/plant1.png",
     "splash": {
-      "image": "./app/assets/splash.png",
+      "image": "./app/assets/plant1.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
