@@ -1,12 +1,12 @@
 import React from 'react';
-import {View, SafeAreaView, Image, Text, StyleSheet} from 'react-native';
+import {View, ScrollView, Image, Text, StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import COLORS from '../config/colors';
 
 const DetailsScreen = ({ navigation, route }) => {
   const plant = route.params;
   return (
-    <SafeAreaView
+    <ScrollView 
       style={{
         flex: 1,
         backgroundColor: COLORS.white,
@@ -96,7 +96,7 @@ const DetailsScreen = ({ navigation, route }) => {
           </View>
         </View>
       </View>
-    </SafeAreaView>
+    </ScrollView>
   );
 };
 

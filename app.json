@@ -5,9 +5,9 @@
     "description": "this my first React Native app",
     "version": "1.0.0",
     "orientation": "default",
-    "icon": "./app/assets/plant1.png",
+    "icon": "./app/assets/ic.png",
     "splash": {
-      "image": "./app/assets/plant1.png",
+      "image": "./app/assets/logoplant.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -28,6 +28,7 @@
     },
     "web": {
       "favicon": "./app/assets/favicon.png"
-    }
+    },
+    "githubUrl": "https://github.com/ayoub-bougroune/Plant-Shop"
   }
 }
